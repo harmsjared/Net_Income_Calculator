@@ -21,21 +21,3 @@ other_expenses = str(input("Other expenses: "))
 print('> ' + other_expenses)
 net_income = income - int(staff_expenses) - int(other_expenses)
 print('Net income: $' + str(int(net_income)))
-
-# simplest solution
-# products = {'Bubblegum': 202,
-#             'Toffee': 118,
-#             'Ice cream': 2250,
-#             'Milk chocolate': 1680,
-#             'Doughnut': 1075,
-#             'Pancake': 80}
-#
-# total_income = sum(products.values())
-# print('Earned amount:')
-# for key, value in products.items():
-#     print(f'{key}: ${value}')
-# print()
-# print(f'Income: ${total_income}')
-# staff_expenses = int(input('Staff expenses:'))
-# other_expenses = int(input('Other expenses:'))
-# print(f'Net income: ${total_income - staff_expenses - other_expenses}')
